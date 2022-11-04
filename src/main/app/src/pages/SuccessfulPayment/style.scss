@@ -1,0 +1,20 @@
+.success-payment-container {
+  height: 100%;
+  width: 100%;
+
+  .info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .header, .icon {
+      font-size: 35px;
+      color:#9fe470;
+    }
+  }
+}

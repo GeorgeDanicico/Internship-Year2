@@ -1,0 +1,37 @@
+.login-container {
+  height: 100vh;
+  width: 100vw;
+
+  .logo {
+    font-size: 40px;
+
+    color: #2FBBF4;
+    font-weight: 500;
+    margin: 150px 0 0 0;
+  }
+
+  .form-container {
+    width: 300px;
+    height: 400px;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+
+    .form-field {
+      margin:10px 0;
+      width: 300px;
+
+    }
+
+    .buttons > button {
+      background-color: #2FBBF4;
+      width: 100%;
+      color: white;
+      font-size: 20px;
+      margin: 10px 0;
+      border-radius: 10px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.payment-container {
+  margin-top: 50px;
+  height: 800px;
+  text-align: left;
+
+  .title, .content {
+    font-size: 35px;
+  }
+
+  .content {
+
+    margin-top: 100px;
+    height: 600px;
+    width: 530px;
+    padding: 30px;
+
+    background: rgba(211,211,211,0.3);
+    border-radius: 10px;
+
+    .header {
+      p {
+        margin-top: 0;
+      }
+    }
+
+    .header, .form-field {
+      width: 400px;
+    }
+
+    .form-field { 
+      margin-bottom: 20px;
+    }
+
+    .benficiary-data {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .button {
+      height: 45px;
+      width: 400px;
+      color: white;
+      font-size: 20px;
+      border-radius: 10px;
+      background-color: #2FBBF4;
+    }
+  }
+}

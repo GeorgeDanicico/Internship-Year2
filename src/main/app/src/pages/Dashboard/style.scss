@@ -1,0 +1,29 @@
+.dashboard-page {
+  .header {
+    color: #363636;
+    font-size: 35px;
+    text-align: left;
+
+    .user-name {
+      font-weight: bold;
+    }
+
+    .add-account-button {
+      color: white;
+      font-size: 18px;
+      border-radius: 10px;
+      background-color: #2FBBF4;
+    }
+  }
+
+  .content {
+    height: 500px;
+    width: 530px;
+    padding: 30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    background: rgba(211,211,211,0.3);
+    border-radius: 10px;
+  }
+}

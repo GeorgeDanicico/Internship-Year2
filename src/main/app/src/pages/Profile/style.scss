@@ -1,0 +1,82 @@
+.account-details-wrapper {
+
+  .account-header {
+    margin-top: 100px;
+    font-size: 35px;
+    text-align: left;
+  }
+
+  .account-details-container {
+    margin-top: 50px;
+    height: 520px;
+    width: 530px;
+    padding: 30px;
+
+    background: rgba(211,211,211,0.3);
+    border-radius: 10px;
+
+    .row {
+      display: flex; 
+      margin: 40px 0;
+
+      .column {
+        margin: 0 30px;
+        width: 100%;
+
+        .MuiFormControl-root {
+          width: 100%;
+        }
+
+        .Mui-focused {
+          color: #2FBBF4;
+        }
+
+        input {
+          width: 100%;
+          font-size: 20px;
+          padding: 10px;
+          border: 0;
+          border-radius: 10px;
+        }
+      }
+
+      .buttons {
+        margin-left: 30px;
+        width: 100%;
+        display: flex;
+
+        .normal, .danger {
+          height: 45px;
+          min-width: 215px;
+          max-width: 300px;
+          color: white;
+          font-size: 20px;
+          margin: 10px 0;
+          border-radius: 10px;
+        }
+
+        .normal {
+          background-color: #2FBBF4;
+        }
+
+        .danger {
+          background-color: #d9534f;
+          margin-right: 40px;
+        }
+      }
+
+      .hide {
+        display: none;
+      }
+    }
+
+    .MuiLinearProgress-barColorPrimary{
+      background-color: #2FBBF4 !important;
+    }
+
+    .linear-bar {
+      background-color: rgba(13,110,253, 0.3);
+    }
+  }
+
+}

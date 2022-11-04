@@ -1,0 +1,60 @@
+.add-account-container {
+  .header {
+    color: #363636;
+    font-size: 35px;
+    text-align: left;
+
+    .back-button {
+      color: white;
+      font-size: 18px;
+      border-radius: 10px;
+      background-color: #2FBBF4;
+    }
+  }
+
+  .content {
+    margin-top: 50px;
+    height: 520px;
+    width: 520px;
+    padding: 30px;
+
+    background: rgba(211,211,211,0.3);
+    border-radius: 10px;
+
+    .form-container {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+
+      .form-field {
+        margin: 15px 0;
+      }
+
+      .currency, .bank {
+        margin: 15px 0;
+        width: 150px;
+      }
+
+      .buttons {
+        margin-top: 10px;
+
+        .normal, .danger {
+          width: 100%;
+          color: white;
+          font-size: 20px;
+          margin: 10px 0;
+          border-radius: 10px;
+        }
+
+        .normal {
+          background-color: #2FBBF4;
+        }
+
+        .danger {
+          background-color:#f46d75;
+        }
+      }
+    }
+
+  }
+}

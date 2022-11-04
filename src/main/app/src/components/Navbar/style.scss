@@ -1,0 +1,63 @@
+.navbar-container {
+  height: 100vh;
+  min-width: 200px;
+  width: 15vw;
+  display: flex;
+  background: #2FBBF4;
+
+  .navbar-list {
+    margin: auto;
+    background: white;
+    box-sizing: border-box;
+
+    .link-wrapper {
+      min-width: 200px;
+      width: 15vw;
+      font-size: 1.5rem;
+      text-decoration: none;
+
+      .non-active-class {
+        transition: 0.3s;
+        display: flex;
+        color: white;
+        background: #2FBBF4;
+      }
+
+      .active-class {
+        display: flex;
+        background: rgba(47,187,244,0.8);
+      }
+
+      .sidebar-icon {
+        height: 30px;
+        width: 30px;
+        padding: 20px;
+      }
+
+      .label {
+        margin: auto 0;
+        text-align: left;
+      }
+
+    }
+
+    .link-wrapper:hover {
+      color: black;
+
+      .non-active-class {
+        background: white;
+        color: black;
+      }
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: white;
+    }
+
+  }
+}

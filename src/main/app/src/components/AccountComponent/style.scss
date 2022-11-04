@@ -1,0 +1,77 @@
+.account-component {
+  margin: 0 0 20px;
+  min-height: 120px;
+  max-height: 400px;
+  width: 500px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+
+    .currency {
+      p {
+        text-align: left;
+        font-size: 18px;
+        margin: 0;
+      }
+    }
+
+
+    .account-menu-icon {
+      color: #363636;
+      font-size: 18px;
+      margin-right: 10px;
+    }
+  }
+
+  .card-buttons {
+    margin-top: 30px;
+    display: flex;
+    // justify-content: space-around;
+
+    .normal, .basic {
+      margin-right: 20px;
+      max-width: 120px;
+      border-radius: 15px;
+    }
+
+    .basic {
+      color: #363636;
+      background-color: rgba(211,211,211,0.3);
+    }
+
+    .normal {
+      color: white;
+      background-color: #2FBBF4;
+    }
+  }
+
+  .history {
+    // overflow-y: auto;
+    width: 100%;
+    min-height: 50px;
+    max-height: 250px;
+
+    .dates-container {
+      height: 35px;
+      margin-top: 15px;
+      display: flex;
+
+      .date {
+        margin-right: 10px;
+
+        input {
+          padding: 5px;
+        }
+      }
+    }
+
+    .transactions {
+      max-height: 200px;
+      overflow-y: auto;
+    }
+  }
+}

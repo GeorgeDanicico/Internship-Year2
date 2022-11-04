@@ -1,0 +1,18 @@
+
+
+spring:
+  datasource:
+    username: academic_admin
+    password: Admin123@
+    url: "jdbc:postgresql://localhost:5432/montran"
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+montran:
+  app:
+    jwtSecret: academicSecretKey
+    jwtExpirationMs: 86400000
